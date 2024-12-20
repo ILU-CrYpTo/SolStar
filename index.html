@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sol Star AI</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="video-background">
+    <video autoplay loop muted playsinline>
+      <source src="background.mp4" type="video/mp4">
+    </video>
+  </div>
+  <header>
+    <div class="top-bar">
+      <div class="logo">SOL STAR AI</div>
+      <div class="ticker" id="coin-ticker"></div>
+    </div>
+  </header>
+  <main>
+    <section class="content">
+      <div class="about">
+        <h1>About Sol Star AI</h1>
+        <p>
+          Sol Star AI is an advanced trading assistant designed for meme coins on the Solana network.
+          Our mission is to empower traders with AI insights and market monitoring tools.
+        </p>
+      </div>
+      <div class="chatbot">
+        <h1>Ask Sol Star</h1>
+        <div id="chat-box">
+          <!-- Chat messages will be dynamically injected here -->
+        </div>
+        <div class="chat-input">
+          <input type="text" id="user-input" placeholder="Type your question..." />
+          <button id="send-btn">Send</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Sol Star AI. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
