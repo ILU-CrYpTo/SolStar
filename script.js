@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer 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`,
+          Authorization: `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`,
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo-instruct",
@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Enter") handleChat();
   });
 });
+
 
 
 
