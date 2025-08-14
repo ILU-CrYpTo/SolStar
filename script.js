@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `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`,
+          Authorization: `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`,
         },
         body: JSON.stringify({
           model: "text-davinci-003",
@@ -99,3 +99,4 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Enter") handleChat();
   });
 });
+
