@@ -58,10 +58,10 @@ document.addEventListener("DOMContentLoaded", () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `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`,
+          Authorization: `Bearer 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`,
         },
         body: JSON.stringify({
-          model: "text-davinci-003",
+          model: "gpt-3.5-turbo-instruct",
           prompt: `User: ${userMessage}\nSol Star:`,
           max_tokens: 100,
         }),
@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Enter") handleChat();
   });
 });
+
 
 
 
