@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `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`,
+          Authorization: `sk-e600bd8c7528487ea3659608af82ffa6`,
         },
         body: JSON.stringify({
           model: "text-davinci-003",
@@ -99,5 +99,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Enter") handleChat();
   });
 });
+
 
 
